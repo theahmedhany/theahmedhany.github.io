@@ -1,0 +1,214 @@
+{
+  "@locale": "English",
+  "english_language": "English",
+  "arabic_language": "Arabic",
+  "light_theme": "Light",
+  "dark_theme": "Dark",
+  "system_theme": "System",
+  "url_not_available": "This link is currently unavailable",
+  "cannot_open_url": "Unable to open the link",
+  "error_opening_url": "An error occurred while opening the link",
+  "whatsapp_number_not_available": "WhatsApp number is not available",
+  "cannot_open_whatsapp": "Unable to open WhatsApp",
+  "error_opening_whatsapp": "An error occurred while opening WhatsApp",
+  "email_not_available": "Email address is not available",
+  "cannot_open_email": "Unable to open the email app",
+  "error_opening_email": "An error occurred while opening the email app",
+  "phone_number_not_available": "Phone number is not available",
+  "cannot_open_phone": "Unable to open the phone app",
+  "error_opening_phone": "An error occurred while opening the phone app",
+  "cannot_open_sms": "Unable to open the Messages app",
+  "error_opening_sms": "An error occurred while opening the Messages app",
+  "location_not_available": "Location information is not available",
+  "cannot_open_maps": "Unable to open Maps",
+  "error_opening_maps": "An error occurred while opening Maps",
+  "theme_toggle": "Toggle Theme",
+  "switch_language": "Switch Language to Arabic",
+  "menu": "Menu",
+  "all_rights_reserved": "All rights reserved",
+  "version": "Version",
+  "general": {
+    "name": "Ahmed Hany",
+    "hello_title": "Hello, I'm Ahmed Hany.",
+    "role_title": "Software Engineer • Mobile Application Specialist",
+    "description": "Software Engineer focused on crafting high-performance mobile applications through clean architecture, modern engineering practices, and user-centered design.",
+    "location": "Cairo, Egypt"
+  },
+  "hero": {
+    "home": "Home",
+    "get_in_touch": "Get in touch",
+    "view_projects": "View Projects",
+    "download_cv": "Download CV",
+    "available_for_hire": "Available For Hire"
+  },
+  "skills": {
+    "title": "Skills",
+    "header_number": "01",
+    "header_first": "Skills",
+    "header_second": "Modules",
+    "subtitle": "I transform ideas into digital experiences by analyzing challenges, designing intuitive solutions, writing clean and maintainable code, and solving real-world problems that drive meaningful results.",
+    "platform_architecture": {
+      "title": "Platform & scalable architecture",
+      "description": "Building scalable Flutter applications with maintainable codebases, clean boundaries, and architectural patterns designed for long-term growth, team collaboration, and product evolution."
+    },
+    "state_management": {
+      "title": "State & presentation depth",
+      "description": "Delivering predictable application state and polished user experiences through modern state management approaches, reusable UI patterns, and performance-focused presentation layers."
+    },
+    "apis_sync": {
+      "title": "APIs, sync & real-time",
+      "description": "Creating resilient communication layers between mobile applications and backend services with real-time updates, offline support, caching strategies, and reliable synchronization."
+    },
+    "data_security": {
+      "title": "Persistence, security & data",
+      "description": "Implementing secure data storage, local persistence, encryption, and authentication strategies that ensure reliability, privacy, and seamless user experiences."
+    },
+    "performance_reliability": {
+      "title": "Native, performance & reliability",
+      "description": "Optimizing applications for speed, stability, and production readiness with native integrations, performance monitoring, automated testing, and debugging workflows."
+    },
+    "mobile_devops": {
+      "title": "Delivery & mobile DevOps",
+      "description": "Automating build, testing, and deployment pipelines to accelerate releases, improve reliability, and maintain efficient delivery processes across development teams."
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "header_number": "02",
+    "header_first": "Work",
+    "header_second": "Experience",
+    "subtitle": "A timeline of my professional growth in software engineering, building scalable mobile applications, delivering production-ready solutions, and creating impactful digital experiences.",
+    "adwar_logistics": {
+      "company_name": "Adwar Logistics",
+      "work_position": "Flutter Developer",
+      "work_period": "Mar 2026 – Present",
+      "work_description": "Developing a cross-platform logistics application focused on driver operations, shipment management, pickups, and deliveries. Implementing barcode scanning, proof of delivery, route tracking, real-time updates, offline support, and scalable logistics workflows."
+    },
+    "meem_market": {
+      "company_name": "Meem Market",
+      "work_position": "Flutter Developer",
+      "work_period": "Jan 2026 – Present",
+      "work_description": "Developing internal and business-critical retail applications including HR management, stock tracking, price checking, and POS systems while delivering scalable and high-performance cross-platform solutions."
+    },
+    "tharad_tech": {
+      "company_name": "Tharad Tech",
+      "work_position": "Flutter Developer Intern",
+      "work_period": "Nov 2025 – Jan 2026",
+      "work_description": "Contributed to multiple production Flutter applications by implementing cross-platform features, API integrations, responsive interfaces, performance improvements, and bug fixes using modern development practices."
+    },
+    "depi": {
+      "company_name": "Digital Egypt Pioneers Initiative (DEPI)",
+      "work_position": "Cross Platform Mobile App Developer",
+      "work_period": "Jun 2025 – Dec 2025",
+      "work_description": "Completed an intensive training program focused on building production-ready Flutter applications using clean architecture, state management, Firebase, API integration, and Agile development practices."
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "header_number": "03",
+    "header_first": "Project",
+    "header_second": "Arsenal",
+    "subtitle": "Showcasing innovative mobile applications, scalable architectures, and high-quality digital products crafted to solve real-world challenges and create meaningful user value.",
+    "qutouf_al_daad": {
+      "title": "Qutouf Al Daad",
+      "category": "Educational Platform",
+      "about": "An advanced educational platform designed to make Arabic language learning interactive, engaging, and accessible for students, teachers, and parents.",
+      "description": "Qutouf Al Daad is a comprehensive Arabic learning platform built with Flutter and Clean Architecture. The application provides a complete educational ecosystem where students can access lessons, assignments, and exams, teachers can create and manage educational content, and parents can monitor academic performance. The platform supports real-time updates, push notifications, bilingual localization, performance analytics, AI-powered assistance, and a modern user experience across Android and iOS.",
+      "feature1": "Interactive lessons with videos, documents, and educational resources",
+      "feature2": "Online examinations with automatic grading and performance tracking",
+      "feature3": "Dedicated dashboards for students, teachers, and parents",
+      "feature4": "Real-time notifications and synchronization using Firebase",
+      "feature5": "AI-powered assistant for helping students during learning",
+      "feature6": "Bilingual support with Arabic and English localization"
+    },
+    "carzo": {
+      "title": "Carzo",
+      "category": "Automotive Marketplace",
+      "about": "A modern automotive marketplace that enables users to discover, compare, buy, and sell vehicles while accessing insurance, maintenance, rescue, and dealership services through a unified mobile experience.",
+      "description": "Carzo is a feature-rich automotive marketplace application built with Flutter and Clean Architecture. The platform simplifies the car buying and selling journey by providing advanced vehicle browsing, smart filtering, side-by-side comparisons, dealership discovery, and integrated automotive services. Users can explore detailed vehicle information, schedule inquiries, save favorites, and receive assistance through an intelligent chatbot. Designed with scalability and performance in mind, Carzo delivers a seamless and intuitive experience for both car buyers and automotive service providers.",
+      "feature1": "Browse, search, and discover vehicles with advanced filtering and sorting options",
+      "feature2": "Compare multiple vehicles side-by-side to make informed purchasing decisions",
+      "feature3": "Access integrated automotive services including insurance, maintenance, and roadside assistance",
+      "feature4": "Manage favorites, inquiries, and bookings through a personalized user dashboard",
+      "feature5": "Receive instant assistance through an AI-powered chatbot and customer support system",
+      "feature6": "Enjoy a modern, responsive, and user-friendly automotive marketplace experience"
+    },
+    "modish": {
+      "title": "Modish",
+      "category": "Fashion E-commerce",
+      "about": "A modern fashion e-commerce application designed to deliver a premium shopping experience through elegant design, seamless navigation, personalized discovery, and powerful product exploration.",
+      "description": "Modish is a fashion-focused e-commerce application built with Flutter, offering a refined and intuitive shopping experience for modern consumers. The platform enables users to discover trending fashion products, browse curated collections, save favorite items, and manage their profiles through a visually appealing interface. Built with scalability, performance, and maintainability in mind, Modish combines responsive design, efficient state management, and seamless API integration to deliver a smooth and engaging mobile commerce experience.",
+      "feature1": "Explore fashion products through curated collections and category-based browsing",
+      "feature2": "Search and discover products quickly using smart search and filtering capabilities",
+      "feature3": "Save favorite items with a personalized wishlist experience",
+      "feature4": "Manage user profiles, preferences, and account information with ease",
+      "feature5": "Receive notifications about new arrivals, promotions, and special offers",
+      "feature6": "Enjoy a modern, responsive, and visually appealing shopping experience"
+    },
+    "qoot": {
+      "title": "Qoot",
+      "category": "Food Donation Platform",
+      "about": "A social impact platform that connects restaurants, charities, and communities to reduce food waste, streamline food donations, and support those in need through a modern digital experience.",
+      "description": "Qoot is a comprehensive food donation management platform built with Flutter and Clean Architecture. The platform bridges the gap between restaurants with surplus food and charities serving vulnerable communities, enabling efficient and transparent donation workflows. Through dedicated experiences for restaurants and charities, real-time donation tracking, analytics dashboards, secure authentication, and bilingual support, Qoot transforms traditional food donation processes into a scalable, technology-driven ecosystem that creates measurable social impact.",
+      "feature1": "Connect restaurants and charities through a unified food donation ecosystem",
+      "feature2": "Manage food donations, reservations, pickups, and donation tracking in real time",
+      "feature3": "Provide dedicated dashboards and workflows for both restaurants and charitable organizations",
+      "feature4": "Track donation statistics, trends, and impact through analytics and reporting tools",
+      "feature5": "Support secure authentication, role-based access control, and account management",
+      "feature6": "Deliver a bilingual and accessible experience with Arabic and English localization"
+    }
+  },
+  "project_details": {
+    "back_to_home": "Back to Home",
+    "technologies": "Technologies",
+    "features": "Key Features",
+    "links": "Project Links",
+    "not_found": "Project Not Found",
+    "not_found_desc": "The project you are looking for does not exist or has been removed.",
+    "role": "Role / About",
+    "description": "Description",
+    "github": "GitHub",
+    "play_store": "Play Store",
+    "app_store": "App Store",
+    "apk": "APK Download",
+    "behance": "Behance",
+    "demo_video": "Watch Demo Video",
+    "live_link": "Live Website"
+  },
+  "tutorials": {
+    "title": "Tutorials",
+    "header_number": "04",
+    "header_first": "Tutorial",
+    "header_second": "Broadcasts",
+    "subtitle": "Sharing practical tutorials, development guides, and technical insights drawn from real-world experience to help developers build scalable, maintainable, and high-quality applications.",
+    "coming_soon": "Coming Soon",
+    "under_development": "Under Development",
+    "coming_soon_desc": "I am currently preparing high-quality tutorials, developer guides, and coding walkthroughs. Stay tuned!"
+  },
+  "tutorial_details": {
+    "back_to_home": "Back to Home",
+    "tags": "Tags",
+    "content": "Content",
+    "links": "Tutorial Links",
+    "not_found": "Tutorial Not Found",
+    "not_found_desc": "The tutorial you are looking for does not exist or has been removed.",
+    "github": "GitHub",
+    "video": "Watch Video",
+    "live_link": "Live Demo",
+    "copy_code": "Copy Code",
+    "code_copied": "Code copied!"
+  },
+  "contact_section": {
+    "contact": "Contact",
+    "header_number": "05",
+    "header_first": "Get In",
+    "header_second": "Touch",
+    "subtitle": "I'm always open to discussing new opportunities, exciting projects, and meaningful collaborations. Whether you have an idea, a question, or simply want to connect, feel free to reach out, and let's build something great together.",
+    "label_email": "Email",
+    "label_phone": "Phone",
+    "label_whatsapp": "WhatsApp",
+    "label_location": "Location",
+    "label_linkedin": "LinkedIn",
+    "label_github": "GitHub"
+  }
+}

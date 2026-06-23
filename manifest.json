@@ -3,12 +3,17 @@
     "short_name": "Ahmed Hany",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#1B4242",
-    "theme_color": "#1B4242",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
     "description": "Ahmed Hany is a skilled Flutter Developer and Mobile Software Engineer with extensive experience in developing, integrating, testing, deploying, and maintaining mobile applications.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
+        {
+            "src": "/favicon.ico",
+            "type": "image/x-icon",
+            "sizes": "16x16 32x32"
+        },
         {
             "src": "icons/Icon-192.png",
             "sizes": "192x192",

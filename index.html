@@ -1,109 +1,260 @@
-<!DOCTYPE html><html><head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
+<!doctype html>
+<html>
+  <head>
+    <!-- Base URL -->
+    <base href="/" />
 
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
+    <!-- Dynamic Favicon -->
+    <link id="favicon" rel="icon" type="image/png" />
 
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+    <script>
+      function updateFavicon() {
+        const favicon = document.getElementById("favicon");
+        const isDark = window.matchMedia(
+          "(prefers-color-scheme: dark)",
+        ).matches;
 
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/">
+        favicon.href = isDark ? "./favicon-light.png" : "./favicon-dark.png";
+      }
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="Ahmed Hany is a skilled Flutter Developer and Mobile Software Engineer with extensive experience in developing, integrating, testing, deploying, and maintaining mobile applications.">
+      // Set favicon on page load
+      updateFavicon();
 
-  <!-- iOS meta tags & icons -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Ahmed Hany">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+      // Update favicon when theme changes
+      window
+        .matchMedia("(prefers-color-scheme: dark)")
+        .addEventListener("change", updateFavicon);
+    </script>
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Ahmed Hany</title>
-  <link rel="manifest" href="manifest.json">
-  <style id="splash-screen-style">
-    html {
-      height: 100%
-    }
+    <meta
+      name="description"
+      content="Ahmed Hany is a skilled Flutter Developer and Mobile Software Engineer with extensive experience in developing, integrating, testing, deploying, and maintaining mobile applications."
+    />
 
-    body {
-      margin: 0;
-      min-height: 100%;
-      background-color: #1B4242;
-          background-size: 100% 100%;
-    }
+    <!-- iOS Meta Tags -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Ahmed Hany" />
 
-    .center {
-      margin: 0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-    }
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
 
-    .contain {
-      display:block;
-      width:100%; height:100%;
-      object-fit: contain;
-    }
+    <title>Ahmed Hany</title>
 
-    .stretch {
-      display:block;
-      width:100%; height:100%;
-    }
+    <link rel="manifest" href="manifest.json" />
 
-    .cover {
-      display:block;
-      width:100%; height:100%;
-      object-fit: cover;
-    }
+    <!-- Splash Screen Styles -->
+    <style>
+      /* ── Splash container ── */
+      #splash-screen {
+        position: fixed;
+        inset: 0;
+        z-index: 99999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+                    visibility 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        opacity: 1;
+        visibility: visible;
+      }
 
-    .bottom {
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      -ms-transform: translate(-50%, 0);
-      transform: translate(-50%, 0);
-    }
+      #splash-screen.hidden {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+      }
 
-    .bottomLeft {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-    }
+      /* ── Logo wrapper with glow pulse ── */
+      .splash-logo-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 48px;
+      }
 
-    .bottomRight {
-      position: absolute;
-      bottom: 0;
-      right: 0;
-    }
-  </style>
-  <script id="splash-screen-script">
-    function removeSplashFromWeb() {
-      document.getElementById("splash")?.remove();
-      document.getElementById("splash-branding")?.remove();
-      document.body.style.background = "transparent";
-    }
-  </script>
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
-</head>
-<body>
-  <picture id="splash">
-      <source srcset="splash/img/light-1x.png 1x, splash/img/light-2x.png 2x, splash/img/light-3x.png 3x, splash/img/light-4x.png 4x" media="(prefers-color-scheme: light)">
-      <source srcset="splash/img/dark-1x.png 1x, splash/img/dark-2x.png 2x, splash/img/dark-3x.png 3x, splash/img/dark-4x.png 4x" media="(prefers-color-scheme: dark)">
-      <img class="center" aria-hidden="true" src="splash/img/light-1x.png" alt="">
-  </picture>
-  <script src="flutter_bootstrap.js" async=""></script>
+      .splash-logo-glow {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        animation: glowPulse 2.4s ease-in-out infinite;
+      }
 
+      @keyframes glowPulse {
+        0%, 100% { transform: scale(1); opacity: 0.6; }
+        50% { transform: scale(1.35); opacity: 1; }
+      }
 
-</body></html>
+      /* ── Logo image ── */
+      .splash-logo {
+        position: relative;
+        width: 120px;
+        height: 120px;
+        object-fit: contain;
+        animation: logoFadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards,
+                   logoFloat 3s ease-in-out 0.8s infinite;
+        opacity: 0;
+        transform: scale(0.8);
+      }
+
+      @keyframes logoFadeIn {
+        to { opacity: 1; transform: scale(1); }
+      }
+
+      @keyframes logoFloat {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+
+      /* ── Loading bar ── */
+      .splash-loader {
+        width: 200px;
+        height: 3px;
+        border-radius: 100px;
+        overflow: hidden;
+        position: relative;
+        animation: loaderFadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.4s forwards;
+        opacity: 0;
+      }
+
+      @keyframes loaderFadeIn {
+        to { opacity: 1; }
+      }
+
+      .splash-loader-bar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 40%;
+        border-radius: 100px;
+        animation: loaderSlide 1.4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+
+      @keyframes loaderSlide {
+        0% { left: -40%; }
+        100% { left: 100%; }
+      }
+
+      /* ── Prevent body scroll while splash is visible ── */
+      body.splash-active {
+        overflow: hidden;
+      }
+    </style>
+
+    <!-- Theme detection script (runs before body renders) -->
+    <script>
+      (function() {
+        // Read saved theme from Flutter's SharedPreferences (stored in localStorage)
+        // ThemeMode enum: 0 = system, 1 = light, 2 = dark
+        // Default is dark (2) to match ThemeCubit default
+        var savedTheme = localStorage.getItem('flutter.app_theme_mode');
+        var themeIndex = savedTheme !== null ? parseInt(savedTheme, 10) : 2;
+        var isDark;
+
+        if (themeIndex === 1) {
+          isDark = false;
+        } else if (themeIndex === 2) {
+          isDark = true;
+        } else {
+          // System mode: follow OS preference
+          isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        }
+
+        // Apply theme colors immediately to prevent flash
+        var root = document.documentElement;
+        if (isDark) {
+          root.style.setProperty('--splash-bg', '#0A0A0A');
+          root.style.setProperty('--splash-loader-track', '#262626');
+          root.style.setProperty('--splash-loader-fill', '#D4D4D4');
+          root.style.setProperty('--splash-glow', 'rgba(212, 212, 212, 0.06)');
+          root.setAttribute('data-splash-theme', 'dark');
+        } else {
+          root.style.setProperty('--splash-bg', '#FAFAFA');
+          root.style.setProperty('--splash-loader-track', '#E5E5E5');
+          root.style.setProperty('--splash-loader-fill', '#404040');
+          root.style.setProperty('--splash-glow', 'rgba(115, 115, 115, 0.08)');
+          root.setAttribute('data-splash-theme', 'light');
+        }
+
+        // Set background color on html element to prevent white flash
+        root.style.backgroundColor = isDark ? '#0A0A0A' : '#FAFAFA';
+      })();
+    </script>
+  </head>
+
+  <body class="splash-active">
+    <!-- Native HTML Splash Screen -->
+    <div id="splash-screen">
+      <div class="splash-logo-wrapper">
+        <div class="splash-logo-glow"></div>
+        <img
+          id="splash-logo"
+          class="splash-logo"
+          alt="Ahmed Hany Logo"
+        />
+      </div>
+
+      <div class="splash-loader">
+        <div class="splash-loader-bar"></div>
+      </div>
+    </div>
+
+    <script>
+      // Set correct logo based on detected theme
+      (function() {
+        var theme = document.documentElement.getAttribute('data-splash-theme');
+        var logo = document.getElementById('splash-logo');
+        var splash = document.getElementById('splash-screen');
+        var glow = document.querySelector('.splash-logo-glow');
+        var loaderTrack = document.querySelector('.splash-loader');
+        var loaderBar = document.querySelector('.splash-loader-bar');
+
+        if (theme === 'dark') {
+          logo.src = './splash-logo-light.png';
+        } else {
+          logo.src = './splash-logo-dark.png';
+        }
+
+        // Apply dynamic colors from CSS variables
+        splash.style.backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--splash-bg');
+        glow.style.background = 'radial-gradient(circle, ' + getComputedStyle(document.documentElement).getPropertyValue('--splash-glow') + ' 0%, transparent 70%)';
+        loaderTrack.style.backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--splash-loader-track');
+        loaderBar.style.backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--splash-loader-fill');
+      })();
+    </script>
+
+    <script>
+      // Remove splash screen once Flutter app is ready
+      var splashRemoved = false;
+      function removeSplash() {
+        if (splashRemoved) return;
+        splashRemoved = true;
+        var splash = document.getElementById("splash-screen");
+        if (splash) {
+          splash.classList.add("hidden");
+          document.body.classList.remove("splash-active");
+          // Remove element from DOM after transition completes
+          setTimeout(function() {
+            splash.remove();
+          }, 600);
+        }
+      }
+
+      // Listen for Flutter engine first frame event
+      window.addEventListener("flutter-first-frame", removeSplash);
+
+      // Failsafe: remove splash after 10 seconds in case event doesn't fire
+      setTimeout(removeSplash, 10000);
+    </script>
+
+    <script src="flutter_bootstrap.js" async></script>
+  </body>
+</html>
