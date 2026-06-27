@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/150602779/614065284-070be11a-e56f-4408-9d92-88d6b1d78c78.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260627T123319Z&X-Amz-Expires=300&X-Amz-Signature=229c9e6997e8fc8c008e3f82ff3eaff22c9bdb3fe6755233762de7c864fbf954&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" width="20%" height="20%" alt="Portfolio Logo" />
+  <img src="https://github.com/user-attachments/assets/070be11a-e56f-4408-9d92-88d6b1d78c78" width="20%" height="20%" alt="Portfolio Logo" />
 </p>
 
 # Ahmed Hany - Mobile Software Engineer Portfolio
