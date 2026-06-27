@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/070be11a-e56f-4408-9d92-88d6b1d78c78" width="20%" height="20%" alt="Portfolio Logo" />
+  <img src="https://github.com/user-attachments/assets/070be11a-e56f-4408-9d92-88d6b1d78c78" width="16%" height="16%" alt="Portfolio Logo" />
 </p>
 
 # Ahmed Hany - Mobile Software Engineer Portfolio
@@ -63,7 +63,7 @@ The portfolio embraces a modern, professional aesthetic with:
 ## Portfolio Preview
 
 <p align="center">
-  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/150602779/614064318-84235034-bb29-43e7-94b0-646a61332204.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260627T123401Z&X-Amz-Expires=300&X-Amz-Signature=b872ba0408ea9e17d3642ad1c1e4ef6503a524a5ddd59b2527ec9dd1b8bbb93a&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" width="100%" alt="Portfolio Preview" />
+  <img src="https://github.com/user-attachments/assets/84235034-bb29-43e7-94b0-646a61332204" width="100%" alt="Portfolio Preview" />
 </p>
 
 _Experience the full interactive portfolio at [theahmedhany.github.io](https://theahmedhany.github.io/)_
