@@ -1,123 +1,87 @@
+<p align="center">
+  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/150602779/614065284-070be11a-e56f-4408-9d92-88d6b1d78c78.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260627T123319Z&X-Amz-Expires=300&X-Amz-Signature=229c9e6997e8fc8c008e3f82ff3eaff22c9bdb3fe6755233762de7c864fbf954&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" width="20%" height="20%" alt="Portfolio Logo" />
+</p>
+
 # Ahmed Hany - Mobile Software Engineer Portfolio
 
-> A fully responsive, cross-platform portfolio website built entirely with **Flutter Web** — showcasing the journey of a passionate Mobile Software Engineer through interactive design and seamless user experience.
+> A responsive Flutter Web portfolio for Ahmed Hany, built to present professional experience, mobile engineering skills, production projects, tutorials, and contact channels in a polished bilingual interface.
 
-[![Live Portfolio](https://img.shields.io/badge/🌐_Live_Portfolio-Visit_Now-4CAF50?style=for-the-badge)](https://theahmedhany.github.io/)
+[![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-Visit_Now-16A34A?style=for-the-badge)](https://theahmedhany.github.io/)
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
 
-## Project Overview
+## Overview
 
-This interactive digital résumé represents the culmination of months of continuous learning, attention to detail, and a deep passion for crafting high-quality cross-platform experiences. Built entirely with Flutter Web, it demonstrates expertise in modern mobile development while serving as a comprehensive showcase of skills, projects, and professional growth.
+This project is a personal portfolio website implemented entirely with Flutter Web. It acts as an interactive resume for a Mobile Software Engineer, highlighting real-world Flutter experience, mobile architecture skills, production applications, learning content, and collaboration links.
 
-### What Makes This Special
-
-- **True Cross-Platform**: One codebase, universal experience across all devices
-- **Performance-First**: Optimized Flutter web build with lightning-fast loading
-- **Interactive Animations**: Smooth, native Flutter animations that enhance user engagement
-- **Professional Aesthetics**: Clean UI design blending performance with visual appeal
-- **Globally Accessible**: Deployed via GitHub Pages for fast, reliable worldwide access
+The app is structured as a single-page portfolio with deep-linked sections and dedicated detail pages for projects and tutorials. It supports English and Arabic localization, light and dark themes, responsive layouts, animated UI elements, and web-specific polish such as dynamic favicon handling and a native splash screen.
 
 ## Key Features
 
-### **Design Excellence**
+### Design Excellence
 
-- **Fully Responsive Design**: Seamlessly optimized for desktop, tablet, and mobile devices
-- **Material Design 3**: Modern Google design principles with dark theme and green accents
-- **Smooth Animations**: Flutter's native animation system for fluid interactions
-- **Professional Photography**: High-quality personal branding with consistent visual identity
+- **Fully Responsive Design:** Seamlessly optimized for desktop, tablet, and mobile devices.
+- **Modern Flutter Interface:** Clean, cohesive visual styling with light, dark, and system-aware themes.
+- **Smooth Animations:** Fluid motion and transitions that make navigation feel natural.
+- **Professional Photography:** Personal branding assets with a consistent visual identity.
 
-### **Technical Implementation**
+### Technical Experience
 
-- **Flutter Web Architecture**: Leveraging Flutter's powerful web compilation capabilities
-- **Single Codebase**: Cross-platform consistency without compromise
-- **Optimized Performance**: Fast loading times and smooth interactions
-- **Touch-Friendly**: Designed for both touch and mouse interactions
+- **Flutter Web Experience:** Built as a polished web portfolio using Flutter's cross-platform rendering.
+- **Single Codebase:** A unified experience across screen sizes and interaction modes.
+- **Optimized Presentation:** Fast-feeling interactions, responsive layouts, and carefully handled loading states.
+- **Touch-Friendly:** Designed for both touch and mouse interactions.
 
-### **User Experience**
+### User Experience
 
-- **Intuitive Navigation**: Easy access to skills, experience, projects, and contact information
-- **Instant Access**: Projects, CV, LinkedIn, and contact details just a click away
-- **Interactive Elements**: Rich user interactions powered by Flutter widgets
-- **Professional Showcase**: Detailed project presentations with clear descriptions
-
-## Architecture & Technologies
-
-### **Core Technologies**
-
-```
-Flutter Web    → Google's UI toolkit for cross-platform development
-Dart          → Optimized programming language for UI development
-Material 3    → Latest Google design system implementation
-GitHub Pages  → Reliable hosting and deployment platform
-```
-
-### **Development Approach**
-
-- **Component-Based**: Modular Flutter widget architecture
-- **Responsive Framework**: Built-in Flutter responsive capabilities
-- **Performance Optimized**: Efficient rendering and resource management
-- **SEO Friendly**: Optimized for search engine visibility
+- **Intuitive Navigation:** Easy access to skills, experience, projects, tutorials, and contact information.
+- **Instant Access:** Projects, CV, LinkedIn, GitHub, and contact details are always within reach.
+- **Interactive Elements:** Hover states, animated navigation, detail pages, and responsive content sections.
+- **Professional Showcase:** Clear project presentations with technologies, features, links, and descriptions.
 
 ## Portfolio Sections
 
-### **Home**
+- `Home` - introduction, role summary, profile image, resume download, and primary navigation actions.
+- `Skills` - six engineering skill modules with supporting technologies.
+- `Experience` - professional timeline for Adwar Logistics, Meem Market, Tharad Tech, and DEPI.
+- `Projects` - featured apps including Tarh, Shaghel, Rahma Healthcare, Qutouf Al Daad, Future X, Qarah, and more.
+- `Tutorials` - developer learning content with dedicated tutorial rendering support.
+- `Contact` - direct communication cards and social/professional links.
 
-Professional introduction with personal branding and career summary
+## Design Philosophy
 
-### **Skills**
+The portfolio embraces a modern, professional aesthetic with:
 
-Comprehensive overview of technical expertise and competencies
-
-### **Experience**
-
-Detailed professional background and career journey timeline
-
-### **Projects**
-
-Interactive showcase of completed work and contributions with live demos
-
-### **Contact**
-
-Multiple communication channels for collaboration and networking
-
-## Professional Identity
-
-**Role**: Mobile Software Engineer
-**Specialization**: Mobile application development, testing, deployment, and maintenance
-**Focus**: Creating seamless user experiences across platforms
-**Mission**: Delivering high-quality, cross-platform solutions that make a difference
+- **Theme Excellence:** A refined light/dark experience with strong contrast and polished visual rhythm.
+- **Visual Consistency:** Cohesive spacing, typography, icons, imagery, and branded assets across all sections.
+- **Animation Fluidity:** Smooth, purposeful animations that enhance the experience without distracting from the content.
+- **Visual Hierarchy:** Clear information architecture that guides visitors through the portfolio naturally.
+- **Brand Consistency:** A unified personal identity across the hero, projects, footer, and contact areas.
 
 ---
 
 ## Portfolio Preview
 
-![Portfolio Preview](https://github.com/user-attachments/assets/4ed5c75e-85b2-46a1-a9bc-2c9ddaaeec0c)
+<p align="center">
+  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/150602779/614064318-84235034-bb29-43e7-94b0-646a61332204.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260627T123401Z&X-Amz-Expires=300&X-Amz-Signature=b872ba0408ea9e17d3642ad1c1e4ef6503a524a5ddd59b2527ec9dd1b8bbb93a&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" width="100%" alt="Portfolio Preview" />
+</p>
 
 _Experience the full interactive portfolio at [theahmedhany.github.io](https://theahmedhany.github.io/)_
 
 ---
 
-## Design Philosophy
-
-The portfolio embraces a **modern, professional aesthetic** with:
-
-- **Dark Theme Excellence**: Professional appearance with strategic green accent colors
-- **Material Design Consistency**: Cohesive Flutter Material Design 3 components
-- **Animation Fluidity**: Smooth, purposeful animations that enhance rather than distract
-- **Visual Hierarchy**: Clear information architecture for optimal user flow
-- **Brand Consistency**: Unified visual identity across all sections
-
 ## Performance Highlights
 
-- **Fast Loading**: Optimized build for quick initial load times
-- **Universal Compatibility**: Works flawlessly across all devices and browsers
-- **User-Centric**: Designed with user experience as the primary focus
-- **Continuous Updates**: Regular enhancements and feature additions
+- **Fast Loading:** A web-focused experience with branded splash handling and optimized first impression.
+- **Universal Compatibility:** Designed to work smoothly across modern desktop and mobile browsers.
+- **User-Centric Flow:** Built around quick scanning, clear navigation, and direct access to important links.
+- **Continuous Updates:** Structured as a living portfolio that can grow with new projects, tutorials, and experience.
 
----
+## Professional Profile
 
-## **Connect & Collaborate**
+**Ahmed Hany** is a Software Engineer and Mobile Application Specialist based in Cairo, Egypt. The portfolio focuses on Flutter development, clean architecture, scalable mobile products, API integration, state management, localization, testing, deployment, and production maintenance.
+
+## Connect & Collaborate
 
 Ready to discuss mobile development projects or freelancing opportunities? Let's connect!
 
@@ -131,9 +95,8 @@ Ready to discuss mobile development projects or freelancing opportunities? Let's
   <a href="https://x.com/theahmedhany" target="_blank">
     <img src="https://skillicons.dev/icons?i=twitter&theme=dark" width="52" height="40" alt="twitter logo"/>
   </a>
-  <a href="https://discord.gg/wPFYxGFA" target="_blank">
-    <img src="https://skillicons.dev/icons?i=discord&theme=dark" width="52" height="40" alt="discord logo"/>
-  </a>
 </div>
 
 ---
+
+Built with Flutter Web and a lot of attention to motion, responsiveness, localization, and clean presentation.
