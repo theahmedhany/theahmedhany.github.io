@@ -85,17 +85,17 @@ _Experience the full interactive portfolio at [theahmedhany.github.io](https://t
 
 Ready to discuss mobile development projects or freelancing opportunities? Let's connect!
 
-<div align="left">
-  <a href="mailto:a7medhanyshokry@gmail.com" target="_blank">
-    <img src="https://skillicons.dev/icons?i=gmail&theme=light" width="52" height="40" alt="gmail logo"/>
-  </a>
+<p align="left">
   <a href="https://www.linkedin.com/in/theahmedhany/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="52" height="40" alt="linkedin logo"/>
+    <img src="https://skillicons.dev/icons?i=linkedin" width="45" style="margin-right:6px;"/>
+  </a>
+  <a href="mailto:a7medhanyshokry@gmail.com" target="_blank">
+    <img src="https://skillicons.dev/icons?i=gmail" width="45" style="margin-right:6px;"/>
   </a>
   <a href="https://x.com/theahmedhany" target="_blank">
-    <img src="https://skillicons.dev/icons?i=twitter&theme=dark" width="52" height="40" alt="twitter logo"/>
+    <img src="https://skillicons.dev/icons?i=twitter" width="45" style="margin-right:6px;"/>
   </a>
-</div>
+</p>
 
 ---
 
