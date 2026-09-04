@@ -87,7 +87,7 @@
     "meem_market": {
       "company_name": "Meem Market",
       "work_position": "Flutter Developer",
-      "work_period": "Jan 2026 – Present",
+      "work_period": "Jan 2026 – Sep 2026",
       "work_description": "Developing internal and business-critical retail applications including HR management, stock tracking, price checking, and POS systems while delivering scalable and high-performance cross-platform solutions."
     },
     "tharad_tech": {
@@ -109,17 +109,41 @@
     "header_first": "Project",
     "header_second": "Arsenal",
     "subtitle": "Showcasing innovative mobile applications, scalable architectures, and high-quality digital products crafted to solve real-world challenges and create meaningful user value.",
-    "tarh": {
-      "title": "Tarh",
-      "category": "Real Estate Marketplace",
-      "about": "A modern bilingual real estate marketplace facilitating property buying, renting, and advertising with geographical mapping and integrated chats.",
-      "description": "Tarh is your go-to app for real estate marketing, helping you buy, sell, or rent properties across a wide range of listings. Whether you're looking for a cozy apartment, a luxury villa, or a relaxing chalet, Tarh connects you with the right buyers or tenants.",
-      "feature1": "Browse detailed listings with categorization, photo galleries, and filtering options",
-      "feature2": "A structured, multi-step property creation wizard with attributes and file attachments",
-      "feature3": "Google Maps interactive search to browse local property listings with custom map pins",
-      "feature4": "Direct in-app messaging system connecting prospective clients with property advertisers",
-      "feature5": "Multiple subscription plan tiers for advertisers with online credit card/webview payments",
-      "feature6": "Bilingual layout (Arabic/English) with RTL support, custom role selection, and FCM notifications"
+    "rafiq": {
+      "title": "Rafiq",
+      "category": "Academic E-Learning & AI Study Platform",
+      "about": "A comprehensive academic e-learning platform delivering expert-led courses, HD video lectures, interactive PDF annotations, and an AI-powered smart study planner.",
+      "description": "Rafiq is an all-in-one educational platform engineered for school and university students. It combines structured video curricula, in-app interactive PDF note-taking, AI-driven weekly study scheduling, timed MCQ assessments with instant feedback, and offline download management.",
+      "feature1": "Expert-led academic courses and structured video lectures with customizable playback speeds and real-time progress tracking.",
+      "feature2": "Interactive in-app PDF viewer with digital annotation tools (highlight, underline, pen drawings, and sticky notes).",
+      "feature3": "AI-powered adaptive study planner with daily focus blocks, exam countdowns, and .ics calendar export.",
+      "feature4": "Interactive MCQ quizzes with real-time countdown timers, detailed explanations, and historical performance tracking.",
+      "feature5": "Offline downloads center for seamless offline access to lecture videos and study materials.",
+      "feature6": "Bilingual interface (Arabic & English with full RTL/LTR support) and smooth Light/Dark theme switching."
+    },
+    "rahma": {
+      "title": "Rahma Healthcare",
+      "category": "Healthcare & Telehealth",
+      "about": "Rahma Healthcare is a trusted digital healthcare platform authorized by the Saudi Ministry of Health, offering voice and video consultations.",
+      "description": "A comprehensive digital platform connecting users with accredited medical, psychological, and social specialists. It features in-app wallet management, secure card payments, full profile setups supporting family members, Zoom telehealth integrations, and digital medical reports.",
+      "feature1": "Audio & Video Consultations: Secure, high-quality audio and video telehealth calls integrated via Zoom.",
+      "feature2": "In-App Financial Wallet: Secure balance recharge, consultation bookings, and practitioner withdrawal requests.",
+      "feature3": "Family Profiles Support: Ability to register family members under a single account to coordinate their care.",
+      "feature4": "Smart Provider Filtering: Detailed search by specialization, fees, and genuine patient ratings.",
+      "feature5": "Digital Medical Reports: Seamless retrieval of virtual prescriptions, sessions history, and digital reports.",
+      "feature6": "Secure Payment Gateways: Seamless checkout support via Visa, Mada, and Apple Pay."
+    },
+    "one_plus": {
+      "title": "One Plus",
+      "category": "E-Learning & Educational Platform",
+      "about": "A smart learning platform connecting students with educational centers, tutors, and structured courses across academic levels.",
+      "description": "One Plus is a comprehensive digital learning application designed to simplify education for students across all academic levels. It allows users to browse and enroll in full courses or modular chapters, stream protected video lectures with advanced anti-recording security, download course attachments & PDF exam sheets, track academic progress, and directly communicate with educational centers.",
+      "feature1": "Multi-tier course exploration filtered by educational center, academic stage, faculty, and academic year.",
+      "feature2": "Flexible enrollment options allowing full-course subscription or chapter-by-chapter purchasing.",
+      "feature3": "In-app multimedia lesson viewer with custom video controls, YouTube integration, and PDF document viewer.",
+      "feature4": "Advanced content protection with screen-recording restrictions and screenshot blocking.",
+      "feature5": "Direct communication channels with educational centers via WhatsApp and phone integration.",
+      "feature6": "Interactive reviews and rating system with course progress tracking and real-time updates."
     },
     "shaghel": {
       "title": "Shaghel",
@@ -133,17 +157,17 @@
       "feature5": "Technician Console: Integrated online/offline toggle, wallet points ledger, and paginated scroll lists for orders.",
       "feature6": "FCM & Local Notifications: Double-layered alert infrastructure keeping both roles updated on chats, requests, and order updates."
     },
-    "rahma": {
-      "title": "Rahma Healthcare",
-      "category": "Healthcare & Telehealth",
-      "about": "Rahma Healthcare is a trusted digital healthcare platform authorized by the Saudi Ministry of Health, offering voice and video consultations.",
-      "description": "A comprehensive digital platform connecting users with accredited medical, psychological, and social specialists. It features in-app wallet management, secure card payments, full profile setups supporting family members, Zoom telehealth integrations, and digital medical reports.",
-      "feature1": "Audio & Video Consultations: Secure, high-quality audio and video telehealth calls integrated via Zoom.",
-      "feature2": "In-App Financial Wallet: Secure balance recharge, consultation bookings, and practitioner withdrawal requests.",
-      "feature3": "Family Profiles Support: Ability to register family members under a single account to coordinate their care.",
-      "feature4": "Smart Provider Filtering: Detailed search by specialization, fees, and genuine patient ratings.",
-      "feature5": "Digital Medical Reports: Seamless retrieval of virtual prescriptions, sessions history, and digital reports.",
-      "feature6": "Secure Payment Gateways: Seamless checkout support via Visa, Mada, and Apple Pay."
+    "tarh": {
+      "title": "Tarh",
+      "category": "Real Estate Marketplace",
+      "about": "A modern bilingual real estate marketplace facilitating property buying, renting, and advertising with geographical mapping and integrated chats.",
+      "description": "Tarh is your go-to app for real estate marketing, helping you buy, sell, or rent properties across a wide range of listings. Whether you're looking for a cozy apartment, a luxury villa, or a relaxing chalet, Tarh connects you with the right buyers or tenants.",
+      "feature1": "Browse detailed listings with categorization, photo galleries, and filtering options",
+      "feature2": "A structured, multi-step property creation wizard with attributes and file attachments",
+      "feature3": "Google Maps interactive search to browse local property listings with custom map pins",
+      "feature4": "Direct in-app messaging system connecting prospective clients with property advertisers",
+      "feature5": "Multiple subscription plan tiers for advertisers with online credit card/webview payments",
+      "feature6": "Bilingual layout (Arabic/English) with RTL support, custom role selection, and FCM notifications"
     },
     "qutouf_al_daad": {
       "title": "Qutouf Al Daad",
@@ -180,6 +204,18 @@
       "feature4": "Integrated Secure Payment Gateway & Checkouts",
       "feature5": "Transaction Logs, History & Order Tracking Dashboards",
       "feature6": "Digital Wallet System & Bank Transfer Withdrawals"
+    },
+    "salon": {
+      "title": "Salon App",
+      "category": "On-Demand Beauty & Grooming Services",
+      "about": "A multi-service salon and barbershop booking application for men and women with real-time scheduling and secure payment options.",
+      "description": "Salon is a specialized grooming and beauty booking application catering to both men and women. The platform allows users to explore barbers and beauty salons, choose their preferred specialist, select custom services (such as haircutting, beard styling, coloring, and hair treatments), pick suitable time slots, and complete transactions securely via credit card or digital wallet.",
+      "feature1": "Customized user experiences for both men (barbershop services) and women (beauty salon care).",
+      "feature2": "Barber & salon discovery with detailed profiles, services list, ratings, and working hours.",
+      "feature3": "Interactive date and time slot picker for real-time appointment booking and rescheduling.",
+      "feature4": "Multi-channel payment gateway supporting Credit Card / Visa and in-app digital wallet.",
+      "feature5": "Itemized digital invoice (Fatora) breakdown with automated VAT and total price calculation.",
+      "feature6": "Push notifications via Firebase and Local Notifications for real-time booking status and reminders."
     }
   },
   "project_details": {
