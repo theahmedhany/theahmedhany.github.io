@@ -1,5 +1,5 @@
 {
-  "@locale": "English",
+  "locale": "English",
   "english_language": "English",
   "arabic_language": "Arabic",
   "light_theme": "Light",
@@ -109,6 +109,18 @@
     "header_first": "Project",
     "header_second": "Arsenal",
     "subtitle": "Showcasing innovative mobile applications, scalable architectures, and high-quality digital products crafted to solve real-world challenges and create meaningful user value.",
+    "nexora": {
+      "title": "Nexora Logistics",
+      "category": "Smart Logistics, Supply Chain & Fleet Management Platform",
+      "about": "An enterprise-grade, multi-tenant digital logistics platform streamlining end-to-end freight, last-mile delivery, and smart warehouse operations.",
+      "description": "Nexora is a scalable, enterprise logistics ecosystem engineered with Flutter to empower modern supply chains across B2B and B2C segments. Designed with dedicated workflows for Drivers, Merchants, and Warehouse Operations, the platform orchestrates parcel delivery cycles, merchant pickups, reverse logistics, industrial handheld laser PDA and camera barcode scanning, electronic Proof of Delivery (e-POD with digital signatures and OTP verification), Cash on Delivery (COD) reconciliations, real-time GPS fleet tracking, and instant WebSocket support ticketing.",
+      "feature1": "Multi-Persona Architecture: Tailored portals for Couriers, Merchants, and Hub Supervisors within a unified multi-tenant environment.",
+      "feature2": "Dual-Engine Scanning: Seamless integration with mobile camera scanners and industrial Android PDA laser hardware scanners.",
+      "feature3": "Digital Proof of Delivery (e-POD): Touch-based customer signatures, presigned photo proofs, and secure OTP verification.",
+      "feature4": "Cash on Delivery (COD) Management: Real-time parcel cash tracking, collection validation, and driver balance reconciliation.",
+      "feature5": "Smart Warehousing & Intra-Hub Manifests: Shelf bin assignments, Out-for-Delivery sorting, and pallet transfer management.",
+      "feature6": "Real-Time Fleet Telemetry & Support: Continuous GPS driver location tracking on interactive maps with bidirectional Socket.io chat."
+    },
     "rafiq": {
       "title": "Rafiq",
       "category": "Academic E-Learning & AI Study Platform",
@@ -120,6 +132,18 @@
       "feature4": "Interactive MCQ quizzes with real-time countdown timers, detailed explanations, and historical performance tracking.",
       "feature5": "Offline downloads center for seamless offline access to lecture videos and study materials.",
       "feature6": "Bilingual interface (Arabic & English with full RTL/LTR support) and smooth Light/Dark theme switching."
+    },
+    "almandob": {
+      "title": "Almandob",
+      "category": "B2B Wholesale & Supply Chain Marketplace",
+      "about": "A premier digital B2B wholesale platform connecting retail merchants and showrooms directly with manufacturers and verified suppliers at competitive prices.",
+      "description": "Almandob is a robust B2B wholesale marketplace designed to streamline inventory sourcing for businesses, retail stores, and commercial showrooms. It enables buyers to order directly from certified local and international factories with transparent carton breakdowns, minimum order quantity rules, and tiered wholesale pricing. The platform features an intelligent shopping cart with promo coupon verification, loyalty rewards point calculations, frictionless guest checkout, Cash on Delivery support, itemized VAT tax invoicing, and end-to-end order lifecycle tracking.",
+      "feature1": "Direct factory-to-buyer procurement from accredited domestic and international manufacturers eliminating middlemen.",
+      "feature2": "Bulk ordering engine with carton quantity calculations, minimum order thresholds, and detailed piece metrics.",
+      "feature3": "Dynamic wholesale cart featuring promotional discount coupons, loyalty points rewards, and Cash on Delivery.",
+      "feature4": "Frictionless checkout for both authenticated commercial accounts and guest buyers with instant phone verification.",
+      "feature5": "Comprehensive billing system with automated 14% VAT calculations, delivery fees, and multi-tier order tracking.",
+      "feature6": "Advanced product filtering by manufacturing origin, price ranges, and factories, backed by marketing deep-link integration."
     },
     "rahma": {
       "title": "Rahma Healthcare",
@@ -216,6 +240,18 @@
       "feature4": "Multi-channel payment gateway supporting Credit Card / Visa and in-app digital wallet.",
       "feature5": "Itemized digital invoice (Fatora) breakdown with automated VAT and total price calculation.",
       "feature6": "Push notifications via Firebase and Local Notifications for real-time booking status and reminders."
+    },
+    "rafeeq_alderasa": {
+      "title": "Rafeeq Al-Derasa",
+      "category": "Private Tutoring & Academic Sessions Marketplace",
+      "about": "An educational marketplace connecting students with certified tutors for personalized 1-on-1 and group live sessions, equipped with study bundles and an integrated digital wallet.",
+      "description": "Rafeeq Al-Derasa is an educational platform designed to streamline private tutoring across all academic stages, from kindergarten and school levels to university coursework and standardized aptitude tests. The app empowers students to explore verified tutor profiles, compare qualifications, book and reschedule live study sessions, subscribe to individual and family study bundles with discount promo codes, manage payments via an in-app digital wallet, and interact directly with teachers through real-time messaging.",
+      "feature1": "Advanced multi-criteria tutor search and filtering by subject, academic stage, gender, rating, and years of experience.",
+      "feature2": "Flexible appointment scheduling system supporting instant booking, session rescheduling, and cancellations.",
+      "feature3": "Individual and group/family educational bundles offering multi-session packages with promo code validation.",
+      "feature4": "Integrated real-time chat infrastructure facilitating direct communication between students and tutors.",
+      "feature5": "In-app digital wallet supporting balance deposits, seamless session checkouts, and comprehensive transaction ledgers.",
+      "feature6": "Rigorous multi-step tutor onboarding with identity verification, university degree uploads, and credential audits."
     }
   },
   "project_details": {
